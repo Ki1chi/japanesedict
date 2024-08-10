@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Searchbar } from './searchbar'
 import './index.scss'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>hello</div>
+    <Searchbar></Searchbar>
     </>
   )
 }
