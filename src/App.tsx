@@ -7,7 +7,9 @@ function App() {
 
   return (
     <>
-    <div className='title'>Website Name</div>
+    <div className='title'>
+      <h1>Website Name</h1>
+    </div>
     <Searchbar></Searchbar>
     </>
   )
