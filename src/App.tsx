@@ -7,10 +7,17 @@ function App() {
 
   return (
     <>
-    <div className='title'>
+    <header className='title'>
       <h1>Website Name</h1>
-    </div>
-    <Searchbar></Searchbar>
+    </header>
+    <main>
+      <p className='search'>Search</p>
+      <form action="">
+        <input type="text" />
+      </form>
+    </main>
+    
+    
     </>
   )
 }
